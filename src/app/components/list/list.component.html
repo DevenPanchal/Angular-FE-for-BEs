@@ -1,0 +1,10 @@
+
+<div *ngIf="news">
+  <h3>News is:</h3>
+  <ul>
+    <li *ngFor="let element of news">
+      {{element.title}}, {{element.author}},  {{element.source}},{{element.content}},  {{element.image}}
+    </li>
+  </ul>
+</div>
+
