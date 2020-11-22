@@ -9,6 +9,7 @@ import { News } from 'src/app/news.model';
   templateUrl: './single.component.html',
   styleUrls: ['./single.component.css']
 })
+
 export class SingleComponent implements OnInit {
   specificnews: News;
   id: String;

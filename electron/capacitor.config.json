@@ -1,0 +1,6 @@
+{
+  "appId": "com.deven.newsreader",
+  "appName": "News Reader",
+  "bundledWebRuntime": false,
+  "webDir": "../frontend/src/"
+}
